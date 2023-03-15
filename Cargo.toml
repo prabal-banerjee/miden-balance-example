@@ -1,0 +1,8 @@
+[package]
+name = "miden-balance-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+miden = { git = "https://github.com/0xPolygonMiden/miden-vm", tag = "v0.3.0"}
+miden-core = "0.3.0"
